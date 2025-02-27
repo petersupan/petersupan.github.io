@@ -10,6 +10,9 @@ https://www.gamebrew.org/wiki/Vincent_In_The_Ice_Caves_GBA
 A youtuber made a video of it:
 https://www.youtube.com/watch?v=niy8JLmbHFs
 
+
+See [https://github.com/petersupan/svedishbox](https://github.com/petersupan/Raycaster/tree/main/VincentGBA)
+
 ![Vincent 1](vincentgba5.png)
 ![Vincent 2](vincentgba6.png)
 
@@ -21,7 +24,7 @@ Goal was to provide feedback on one step in running fast enough so that adaption
 
 ### Swedish Box
 A box which talks swedish words when pressing buttons. Very simple, I made it that my kids hear the swedish language before we moved to sweden. However, they learned a lot more with "Peppa Pig" (or Greta Gris, how it is called in swedish).
-
+See https://github.com/petersupan/svedishbox
 
 ### VoxelGPU
 I was always a big fan of the Comanche series games and later Ken Silvermans Voxel engines for terrain rendering (https://advsys.net/ken/voxlap.htm). I wanted to prove the claim wrong that these kinds of algorithms (2D-raycasting) are not suitable for GPUs.
