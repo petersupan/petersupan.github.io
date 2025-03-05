@@ -1,5 +1,13 @@
 # Peter Supan
 ## Personal projects
+
+### Jpeg Textures
+It began for a low-latency streaming algorithm, where I used it to optimize transfer times by decompressing jpeg(ish) compressed images on the fly on the GPU in a compute shader.
+
+Further experiments aimed at using Jpeg images as textures with the aim to render from a jpeg image without having the whole decompressed image lying around. For huge textures, volume rendering or rendering with limited video memory (like in the browser).
+
+The result is quite fast with a scaled down jpeg baseline variant (just Runlength encoding for entropy, no huffman). 
+
 ### Vincent in the ice caves
 Repository: https://github.com/petersupan/Raycaster/tree/main/VincentGBA
 
@@ -23,10 +31,12 @@ Goal was to provide feedback on one step in running fast enough so that adaption
 
 ### Swedish Box
 Repository: https://github.com/petersupan/svedishbox
+
 A box which talks swedish words when pressing buttons. Very simple, I made it that my kids hear the swedish language before we moved to sweden. However, they learned a lot more with "Peppa Pig" (or Greta Gris, how it is called in swedish).
 
 ### Riding Game
 Repository: https://github.com/petersupan/RidingGame
+
 A simple jump and run I made for a friend as a birthday present.
 All written from scratch in C++ using only SDL1.
 
@@ -43,4 +53,9 @@ Inspired by Ken Silverland and Peter Houska I made version which renders the vox
 Even doing a top-down view.
 
 ![Top down view](top-down.png)
+
+There exists a OpenGL Compute Shader variant and a WebGPU Compute Shader Variant.
+
+
+
 
