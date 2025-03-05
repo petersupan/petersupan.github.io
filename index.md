@@ -1,6 +1,8 @@
 # Peter Supan
 ## Personal projects
 ### Vincent in the ice caves
+Repository: https://github.com/petersupan/Raycaster/tree/main/VincentGBA
+
 A rather simplistic 3D Shooter on the Gameboy advance with a completely self-written raycasting engine somewhere between Wolfenstein 3D and Doom.  
 I made it out of curiosity if I could pull off a raycasting engine on the 16Mhz ARM3 Chip, without cache, without much graphics hardware support and without Operating System.
 
@@ -20,20 +22,20 @@ So I decided to explore the possibilites to do this myself.
 Goal was to provide feedback on one step in running fast enough so that adaptions could be made in the next step, either visually or acoustic.
 
 ### Swedish Box
+Repository: https://github.com/petersupan/svedishbox
 A box which talks swedish words when pressing buttons. Very simple, I made it that my kids hear the swedish language before we moved to sweden. However, they learned a lot more with "Peppa Pig" (or Greta Gris, how it is called in swedish).
 
 
 ### VoxelGPU
+Repository: https://github.com/petersupan/GPUVoxel
+
 I was always a big fan of the Comanche series games and later Ken Silvermans Voxel engines for terrain rendering (https://advsys.net/ken/voxlap.htm). I wanted to prove the claim wrong that these kinds of algorithms (2D-raycasting) are not suitable for GPUs.
 
 I tested ways to parallelize these heightmap rendering engines  to make them run efficiently in compute shaders.
 
 Inspired by Ken Silverland and Peter Houska I made version which renders the voxel landscape in an lat-long style environment map. This makes it possible to make a 6dof engine (instead of the 4dof in Comanche).
-The lat-long map looks like this.
-![A lat long](Lat_long.png)
 
-This can be further warped into something like a top-down view.
+Even doing a top-down view.
+
 ![Top down view](top-down.png)
-Or a sphere map:
-![A spheremap](SphereMap.png)
 
