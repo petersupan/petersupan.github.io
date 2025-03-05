@@ -28,3 +28,12 @@ I was always a big fan of the Comanche series games and later Ken Silvermans Vox
 
 I tested ways to parallelize these heightmap rendering engines  to make them run efficiently in compute shaders.
 
+Inspired by Ken Silverland and Peter Houska I made version which renders the voxel landscape in an lat-long style environment map. This makes it possible to make a 6dof engine (instead of the 4dof in Comanche).
+The lat-long map looks like this.
+![A lat long](Lat_long.png)
+
+This can be further warped into something like a top-down view.
+![Top down view](top-down.png)
+Or a sphere map:
+![A spheremap](SphereMap.png)
+
