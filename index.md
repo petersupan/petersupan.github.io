@@ -25,6 +25,11 @@ Goal was to provide feedback on one step in running fast enough so that adaption
 Repository: https://github.com/petersupan/svedishbox
 A box which talks swedish words when pressing buttons. Very simple, I made it that my kids hear the swedish language before we moved to sweden. However, they learned a lot more with "Peppa Pig" (or Greta Gris, how it is called in swedish).
 
+### Riding Game
+Repository: https://github.com/petersupan/RidingGame
+A simple jump and run I made for a friend as a birthday present.
+All written from scratch in C++ using only SDL1.
+
 
 ### VoxelGPU
 Repository: https://github.com/petersupan/GPUVoxel
