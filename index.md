@@ -2,6 +2,8 @@
 ## Personal projects
 
 ### Jpeg Textures
+Repository coming soon.
+
 It began for a low-latency streaming algorithm, where I used it to optimize transfer times by decompressing jpeg(ish) compressed images on the fly on the GPU in a compute shader.
 
 Further experiments aimed at using Jpeg images as textures with the aim to render from a jpeg image without having the whole decompressed image lying around. For huge textures, volume rendering or rendering with limited video memory (like in the browser).
@@ -24,6 +26,8 @@ https://www.youtube.com/watch?v=niy8JLmbHFs
 ![Vincent 2](vincentgba6.png)
 
 ### InstantFeedback Running
+https://github.com/petersupan/petersupan.github.io/blob/main/InstantFeedbackRunning.md
+
 I was frustrated by the fact that there exist so many gadgets for running, which measure parameters related to running technique, but none of them gives immediate, actionable feedback. They all give averaged analytical data to look at after the run, which makes it hard to iterate.
 
 So I decided to explore the possibilites to do this myself.
