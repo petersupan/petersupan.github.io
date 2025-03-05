@@ -6,7 +6,7 @@ It began for a low-latency streaming algorithm, where I used it to optimize tran
 
 Further experiments aimed at using Jpeg images as textures with the aim to render from a jpeg image without having the whole decompressed image lying around. For huge textures, volume rendering or rendering with limited video memory (like in the browser).
 
-The result is quite fast with a scaled down jpeg baseline variant (just Runlength encoding for entropy, no huffman). 
+The result is quite fast (130MPixels/sec on a 2019 Laptop GPU) with a poor mans jpeg baseline variant (just Runlength encoding for entropy, no huffman). 
 
 ### Vincent in the ice caves
 Repository: https://github.com/petersupan/Raycaster/tree/main/VincentGBA
