@@ -46,7 +46,7 @@ All written from scratch in C++ using only SDL1.
 
 
 ### VoxelGPU
-Repository: <https://github.com/petersupan/GPUVoxel>
+Repository: <https://github.com/petersupan/GPUVoxel/tree/main/DesktopOpenGL>
 
 I was always a big fan of the Comanche series games and later Ken Silvermans Voxel engines for terrain rendering (<https://advsys.net/ken/voxlap.htm>). I wanted to prove the claim wrong that these kinds of algorithms (2D-raycasting) are not suitable for GPUs.
 
